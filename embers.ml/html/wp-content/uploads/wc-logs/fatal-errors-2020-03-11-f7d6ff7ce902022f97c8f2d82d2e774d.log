@@ -1,0 +1,120 @@
+2020-03-11T05:47:31+00:00 CRITICAL syntax error, unexpected '%' in /var/www/embers.ml/html/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 2
+
+2020-03-11T06:30:48+00:00 CRITICAL syntax error, unexpected '%' in /var/www/embers.ml/html/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 2
+
+2020-03-11T06:47:22+00:00 CRITICAL syntax error, unexpected '%' in /var/www/embers.ml/html/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(213) : eval()'d code on line 2
+
+2020-03-11T06:48:09+00:00 CRITICAL syntax error, unexpected '%' in /var/www/embers.ml/html/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(213) : eval()'d code on line 1
+
+2020-03-11T09:54:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T09:54:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T10:01:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T10:02:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T10:17:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T10:20:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T10:20:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T10:21:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T10:22:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T10:28:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T10:29:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T10:29:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T10:29:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+
+2020-03-11T10:29:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ElementorPro\Modules\NavMenu\Widgets\Nav_Menu::handle_link_classes(), 3 passed in /var/www/embers.ml/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php:1129
+Stack trace:
+#0 /var/www/embers.ml/html/wp-includes/class-wp-hook.php(288): ElementorPro\Modules\NavMenu\Widgets\Nav_Menu->handle_link_classes(Array, Object(WP_Post), Object(stdClass))
+#1 /var/www/embers.ml/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(494): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass))
+#3 /var/www/embers.ml/html/wp-content/themes/hala/framework/megamenu/mega-menu.php(412): HeroMenuWalker->start_el('<li class="menu...', Object(WP_Post), 0, Object(stdClass))
+#4 /var/www/embers.ml/html/wp-includes/class-wp-walker.php(244): HeroMen in /var/www/embers.ml/html/wp-content/plugins/elementor-pro/modules/nav-menu/widgets/nav-menu.php on line 1129
+

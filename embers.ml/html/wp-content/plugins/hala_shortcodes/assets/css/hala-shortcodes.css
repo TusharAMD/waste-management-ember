@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+.tbbs-text-center{
+	text-align: center;
+}
+.tbbs-text-left{
+	text-align: left;
+}
+.tbbs-text-right{
+	text-align: right;
+}
+/* bs-textillate */
+.bs-textillate{
+	overflow: hidden;
+}
+
+/* bs row */
+.bs-row{ width: 100% }
+.bs-row{
+	font-size: 0;
+	letter-spacing: 0;
+}
+.bs-row .bs-col-3,
+.bs-row .bs-col-4,
+.bs-row .bs-col-5,
+.bs-row .bs-col-6{
+	display: inline-block;
+	vertical-align: top;
+}
+.bs-row .bs-col-3{
+	width: calc( 100% / 3 );
+}
+.bs-row .bs-col-4{
+	width: calc( 100% / 4 );
+}
+.bs-row .bs-col-5{
+	width: calc( 100% / 5 );
+}
+.bs-row .bs-col-6{
+	width: calc( 100% / 6 );
+}
+@media(max-width: 969px) {
+	.bs-row .bs-col-3,
+	.bs-row .bs-col-4,
+	.bs-row .bs-col-5,
+	.bs-row .bs-col-6{
+		width: calc( 100% / 4 );
+	}
+}
+@media(max-width: 750px) {
+	.bs-row .bs-col-3,
+	.bs-row .bs-col-4,
+	.bs-row .bs-col-5,
+	.bs-row .bs-col-6{
+		width: calc( 100% / 3 );
+	}
+}
+@media(max-width: 550px) {
+	.bs-row .bs-col-3,
+	.bs-row .bs-col-4,
+	.bs-row .bs-col-5,
+	.bs-row .bs-col-6{
+		width: calc( 100% / 2 );
+	}
+}
+@media(max-width: 320px) {
+	.bs-row .bs-col-3,
+	.bs-row .bs-col-4,
+	.bs-row .bs-col-5,
+	.bs-row .bs-col-6{
+		width: calc( 100% / 1 );
+	}
+}
+
+/* Client logo */
+.bs-clientlogo{}
+.bs-clientlogo.layout-grid{
+	overflow: hidden;
+}
+.bs-clientlogo.layout-grid .logo-item{
+	box-shadow: -1px -1px 0 0 #eaeaea;
+}

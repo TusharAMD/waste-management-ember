@@ -1,0 +1,4 @@
+2020-03-10T17:59:30+00:00 CRITICAL syntax error, unexpected '%' in /var/www/embers.ml/html/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 2
+
+2020-03-10T18:01:10+00:00 CRITICAL syntax error, unexpected '%' in /var/www/embers.ml/html/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 2
+

@@ -1,0 +1,196 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="embers.ml" resolutions="1x" timestamp="1582193713164">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="alternatives.css" crc="3815457465" ref="alternatives"/>
+    <file name="about-us.css" crc="4057059735" ref="about-us"/>
+    <file name="suggestions.css" crc="97190713" ref="suggestions"/>
+    <file name="contact-us.css" crc="288244556" ref="contact-us"/>
+    <file name="reduce.css" crc="4084171873" ref="reduce"/>
+    <file name="index.css" crc="384709146" ref="index"/>
+    <file name="recycle.css" crc="4229584592" ref="recycle"/>
+    <file name="cfc.css" crc="156762772" ref="cfc"/>
+    <file name="reuse.css" crc="4269192576" ref="reuse"/>
+    <file name="recover.css" crc="3937470850" ref="recover"/>
+    <file name="paper_plates.css" crc="448295347" ref="paper_plates"/>
+    <file name="chips_packet.css" crc="4000633737" ref="chips_packet"/>
+    <file name="blank.css" crc="4127864257" ref="blank"/>
+    <file name="newspaper.css" crc="474851055" ref="newspaper"/>
+    <file name="plastic_bottles.css" crc="252982463" ref="plastic_bottles"/>
+    <file name="agarbatti.css" crc="4003149229" ref="agarbatti"/>
+  </folder>
+  <folder name="assets">
+    <file name="index.html" crc="36919193" seo="true" mt="1582045039000"/>
+    <file name="page.html" crc="3900847667" seo="true" mt="1539695894000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about-us:contact-us:reduce:suggestions:alternatives:cfc:reuse:recycle:recover:blank:agarbatti:paper_plates:newspaper:chips_packet:plastic_bottles"/>
+    <file name="museutils.js" crc="3939489907" ref="index:about-us:contact-us:reduce:suggestions:alternatives:cfc:reuse:recycle:recover:blank:agarbatti:paper_plates:newspaper:chips_packet:plastic_bottles"/>
+    <file name="whatinput.js" crc="86476730" ref="index:about-us:contact-us:reduce:suggestions:alternatives:cfc:reuse:recycle:recover:blank:agarbatti:paper_plates:newspaper:chips_packet:plastic_bottles"/>
+    <file name="museconfig.js" crc="3936894949" ref="index:about-us:contact-us:reduce:suggestions:alternatives:cfc:reuse:recycle:recover:blank:agarbatti:paper_plates:newspaper:chips_packet:plastic_bottles"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:about-us:contact-us:reduce:suggestions:alternatives:cfc:reuse:recycle:recover:blank:agarbatti:paper_plates:newspaper:chips_packet:plastic_bottles"/>
+    <file name="require.js" crc="4177726516" ref="index:about-us:contact-us:reduce:suggestions:alternatives:cfc:reuse:recycle:recover:blank:agarbatti:paper_plates:newspaper:chips_packet:plastic_bottles"/>
+    <file name="webpro.js" crc="3856315280" ref="contact-us"/>
+    <file name="form_check.php" crc="4108222811" ref="contact-us"/>
+    <file name="form_throttle.php" crc="503802655" ref="contact-us"/>
+    <file name="form_process.php" crc="260214869" ref="contact-us"/>
+    <file name="form-u232.php" crc="4012134284" ref="contact-us"/>
+  </folder>
+  <folder name="images">
+    <file name="home.png" crc="4173531769" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u98.png" crc="4040339275" ref="index"/>
+    <file name="u98-r.png" crc="3908903953" ref="index"/>
+    <file name="u74.png" crc="145940885" ref="index"/>
+    <file name="u74-r.png" crc="4196527331" ref="index"/>
+    <file name="—pngtree—care for the environment, fresh_1010524.jpg" crc="194161063" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u110-6.png" crc="83274965" ref="index"/>
+    <file name="u135.png" crc="4189356303" ref="index"/>
+    <file name="u135-r.png" crc="476323353" ref="index"/>
+    <file name="u141.png" crc="3847297511" ref="index"/>
+    <file name="u141-r.png" crc="222330702" ref="index"/>
+    <file name="u141-m.png" crc="3847297511" ref="index"/>
+    <file name="u146.png" crc="391221010" ref="index"/>
+    <file name="u146-r.png" crc="3768658046" ref="index"/>
+    <file name="u146-m.png" crc="13994665" ref="index"/>
+    <file name="u151.png" crc="530431250" ref="index"/>
+    <file name="u151-r.png" crc="299579995" ref="index"/>
+    <file name="u151-m.png" crc="167156998" ref="index"/>
+    <file name="u159-4.png" crc="507843581" ref="index"/>
+    <file name="—pngtree—world environment day background, june_1004339.jpg" crc="455725628" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="about us.png" crc="426862095" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="u169-8.png" crc="3978205031" ref="about-us"/>
+    <file name="u351.png" crc="227108870" ref="about-us"/>
+    <file name="u351-r.png" crc="227108870" ref="about-us"/>
+    <file name="u351-m.png" crc="126880562" ref="about-us"/>
+    <file name="—pngtree—green plant leaves environment background_1051509.jpg" crc="3818579238" seo="true" ref="contact-us">
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="contact us.png" crc="492274803" seo="true" ref="contact-us">
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="reduce_back.jpg" crc="4218731559" seo="true" ref="reduce">
+      <caption webpage="reduce" alt=""/>
+    </file>
+    <file name="reduce.png" crc="140224798" seo="true" ref="reduce">
+      <caption webpage="reduce" alt=""/>
+    </file>
+    <file name="u368.png" crc="227108870" ref="reduce"/>
+    <file name="u368-r.png" crc="227108870" ref="reduce"/>
+    <file name="u368-m.png" crc="126880562" ref="reduce"/>
+    <file name="alt.jpg" crc="23070450" seo="true" ref="reduce">
+      <caption webpage="reduce" alt=""/>
+    </file>
+    <file name="cfc.jpg" crc="183987879" seo="true" ref="reduce">
+      <caption webpage="reduce" alt=""/>
+    </file>
+    <file name="suggestions.jpg" crc="4174450999" seo="true" ref="reduce">
+      <caption webpage="reduce" alt=""/>
+    </file>
+    <file name="—pngtree—illustrator background to protect the_930263.jpg" crc="336472168" seo="true" ref="suggestions">
+      <caption webpage="suggestions" alt=""/>
+    </file>
+    <file name="suggestionsheader.png" crc="3790299607" seo="true" ref="suggestions">
+      <caption webpage="suggestions" alt=""/>
+    </file>
+    <file name="logo.png" crc="410843779" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u722.png" crc="227108870" ref="contact-us"/>
+    <file name="u722-r.png" crc="227108870" ref="contact-us"/>
+    <file name="u722-m.png" crc="126880562" ref="contact-us"/>
+    <file name="u496-4.png" crc="228497709" ref="suggestions"/>
+    <file name="u701.png" crc="227108870" ref="suggestions"/>
+    <file name="u701-r.png" crc="227108870" ref="suggestions"/>
+    <file name="u701-m.png" crc="126880562" ref="suggestions"/>
+    <file name="—pngtree—green fresh world environment day_1106958.jpg" crc="254462621" seo="true" ref="cfc">
+      <caption webpage="cfc" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="cfc"/>
+    <file name="u469_states.png" crc="269766826" ref="cfc"/>
+    <file name="u469_states-r.png" crc="3788288434" ref="cfc"/>
+    <file name="cfcheader.png" crc="4293883243" seo="true" ref="cfc">
+      <caption webpage="cfc" alt=""/>
+    </file>
+    <file name="u708.png" crc="227108870" ref="cfc"/>
+    <file name="u708-r.png" crc="227108870" ref="cfc"/>
+    <file name="u708-m.png" crc="126880562" ref="cfc"/>
+    <file name="—pngtree—world environment day exhibition board_979348.jpg" crc="4250549100" seo="true" ref="alternatives">
+      <caption webpage="alternatives" alt=""/>
+    </file>
+    <file name="altheader.png" crc="4280329972" seo="true" ref="alternatives">
+      <caption webpage="alternatives" alt=""/>
+    </file>
+    <file name="u519-8.png" crc="273030786" ref="alternatives"/>
+    <file name="u715.png" crc="227108870" ref="alternatives"/>
+    <file name="u715-r.png" crc="227108870" ref="alternatives"/>
+    <file name="u715-m.png" crc="126880562" ref="alternatives"/>
+    <file name="reduce_back.png" crc="4147125260" seo="true" ref="reuse">
+      <caption webpage="reuse" alt=""/>
+    </file>
+    <file name="reuse.png" crc="371812634" seo="true" ref="reuse">
+      <caption webpage="reuse" alt=""/>
+    </file>
+    <file name="u554.png" crc="4021923507" ref="reuse"/>
+    <file name="u554-m.png" crc="3923312455" ref="reuse"/>
+    <file name="u564.png" crc="192630591" ref="reuse"/>
+    <file name="u564-m.png" crc="4101293061" ref="reuse"/>
+    <file name="u574.png" crc="4235657592" ref="reuse"/>
+    <file name="u574-m.png" crc="3960500818" ref="reuse"/>
+    <file name="u667.png" crc="227108870" ref="reuse"/>
+    <file name="u667-r.png" crc="227108870" ref="reuse"/>
+    <file name="u667-m.png" crc="126880562" ref="reuse"/>
+    <file name="—pngtree—blue hand painted plant leaves_1170105.jpg" crc="4277715356" seo="true" ref="recycle">
+      <caption webpage="recycle" alt=""/>
+    </file>
+    <file name="recycle.png" crc="475524106" seo="true" ref="recycle">
+      <caption webpage="recycle" alt=""/>
+    </file>
+    <file name="u694.png" crc="227108870" ref="recycle"/>
+    <file name="u694-r.png" crc="227108870" ref="recycle"/>
+    <file name="u694-m.png" crc="126880562" ref="recycle"/>
+    <file name="green-silhouette-forest-abstract-background-environment-shutterstock-692341585-1068x601.jpg" crc="535723846" seo="true" ref="recover">
+      <caption webpage="recover" alt=""/>
+    </file>
+    <file name="recover.png" crc="279371729" seo="true" ref="recover">
+      <caption webpage="recover" alt=""/>
+    </file>
+    <file name="u674.png" crc="227108870" ref="recover"/>
+    <file name="u674-r.png" crc="227108870" ref="recover"/>
+    <file name="u674-m.png" crc="126880562" ref="recover"/>
+    <file name="u811-4.png" crc="305803262" ref="agarbatti"/>
+    <file name="backfordiy.png" crc="3835712744" seo="true" ref="agarbatti:paper_plates:plastic_bottles:chips_packet:newspaper">
+      <caption webpage="plastic_bottles" alt=""/>
+      <caption webpage="agarbatti" alt=""/>
+      <caption webpage="paper_plates" alt=""/>
+      <caption webpage="chips_packet" alt=""/>
+      <caption webpage="newspaper" alt=""/>
+    </file>
+    <file name="u827-4.png" crc="138125537" ref="paper_plates"/>
+    <file name="u845-4.png" crc="3767712743" ref="plastic_bottles"/>
+    <file name="u868-4.png" crc="3918527289" ref="chips_packet"/>
+    <file name="u888-4.png" crc="305803262" ref="newspaper"/>
+  </folder>
+  <file name="index.html" crc="36919193" seo="true" mt="1580860457250" redirect="true"/>
+  <file name="about-us.html" crc="4274755531" seo="true" mt="1580754259125" redirect="true"/>
+  <file name="contact-us.html" crc="143984518" seo="true" mt="1580860504782" redirect="true"/>
+  <file name="reduce.html" crc="3782229006" seo="true" mt="1580859330728" redirect="true"/>
+  <file name="suggestions.html" crc="521539051" seo="true" mt="1580860472036" redirect="true"/>
+  <file name="alternatives.html" crc="4183314885" seo="true" mt="1580860491803" redirect="true"/>
+  <file name="cfc.html" crc="4061119896" seo="true" mt="1580860481645" redirect="true"/>
+  <file name="reuse.html" crc="466621889" seo="true" mt="1582097415953" redirect="true"/>
+  <file name="recycle.html" crc="35984174" seo="true" mt="1580860410345" redirect="true"/>
+  <file name="recover.html" crc="77301384" seo="true" mt="1580860379459" redirect="true"/>
+  <file name="blank.html" crc="438868339" seo="true" mt="1582096869955" redirect="false"/>
+  <file name="agarbatti.html" crc="79156047" seo="true" mt="1582103794099" redirect="true"/>
+  <file name="paper_plates.html" crc="265467523" seo="true" mt="1582105842616" redirect="true"/>
+  <file name="newspaper.html" crc="3830994682" seo="true" mt="1582101697140" redirect="true"/>
+  <file name="chips_packet.html" crc="3842795343" seo="true" mt="1582109676608" redirect="true"/>
+  <file name="plastic_bottles.html" crc="4110942706" seo="true" mt="1582108710579" redirect="true"/>
+</manifest>

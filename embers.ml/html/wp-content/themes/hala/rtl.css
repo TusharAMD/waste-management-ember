@@ -1,0 +1,414 @@
+/*
+Theme Name: Hala
+Theme URI: http://motivoweb.com
+Author: motivoweb
+Author URI: http://motivoweb.com
+Version: 1.0.0
+License: GNU General Public License v1 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns,left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Description: Hala is a fully configurable and easy to use responsive WordPress Theme  with a lot of great features.
+Text Domain: Hala
+*/
+h1, h2, h3, h4, h5, h6, p, ul, li, a, input, textarea {
+	direction: rtl;
+	letter-spacing: 0 !important;
+}
+.vc_row[data-vc-full-width]{
+	margin: 0;
+    float: left;
+}
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+/* header */
+.social-header {
+	left: 9%;
+	right: auto;
+}
+.logo {
+	right: 8%;
+	left: auto;
+}
+.cd-nav-trigger {
+	right: auto;
+	left: 5%;
+}
+.cd-nav-container.is-visible {
+	right: auto;
+	left: 0;
+}
+.cd-close-nav {
+	left: 10%;
+}
+.no-touch .cd-nav-trigger:hover {
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+.cd-headline.clip .cd-words-wrapper::after {
+	left: 0;
+	right: auto;
+}
+.btn {
+	letter-spacing: 0;
+}
+.btn .fa-long-arrow-right {
+	-moz-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+.cd-nav {
+	padding-right: 0;
+}
+.mo-col-logo , .mo-col-menu{
+	float:right;
+}
+.menu-item  a {text-align:right;}
+@media (min-width: 992px){
+.mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children.nomega-menu-item > ul > li.menu-item-has-children > a:after, .mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children.nomega-menu-item > ul > li.page_item_has_children > a:after, .mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children.nomega-menu-item > ul > li.menu-item-has-children > a:after, .mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children.nomega-menu-item > ul > li.page_item_has_children > a:after, .mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children.nomega-menu-item > ul > li.menu-item-has-children > a:after, .mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children.nomega-menu-item > ul > li.page_item_has_children > a:after, .mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children.nomega-menu-item > ul > li.menu-item-has-children > a:after, .mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children.nomega-menu-item > ul > li.page_item_has_children > a:after {
+	left:10px; right:auto; content: "\f104";}
+.mo-header-v2 .mo-menu-list, .mo-header-v4 .mo-menu-list { margin-left: 30px; margin-right: 0; float: left;}
+}
+@media (min-width: 992px){
+.mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children.algleft > ul, .mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children.algleft > ul, .mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children.algleft > ul, .mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children.algleft > ul {right: 0;}
+}
+.mo-header-v4 .social-header{
+	float: left;
+}
+.widget_search form .fa-search, .header_search form .fa-search {
+    left: 22px; right:auto; 
+}
+.mo-header-v1 .widget.header_search .search-form .search-submit, .mo-header-v2 .widget.header_search .search-form .search-submit, .mo-header-v3 .widget.header_search .search-form .search-submit, .mo-header-v4 .widget.header_search .search-form .search-submit {
+    left: 0; right:auto; 
+}
+.mo-search-header > a {
+    right: 95% !important;
+}
+.mo-header-v1 .widget.header_search, .mo-header-v2 .widget.header_search, .mo-header-v3 .widget.header_search, .mo-header-v4 .widget.header_search {
+    left:0; right:auto;
+}
+/* about */
+.item-rotate {
+    right: 40%;
+	left:auto;
+}
+ul.list li:before {
+    padding-left: 0.5em;
+    float: right;
+}
+.about ul li:before {
+	float: right;
+	-moz-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+.owl-about .icon-wrap {
+	float: right;
+}
+.progress-bar-tooltip {
+	float: left;
+}
+.progress-bar {
+    float: right;
+}
+.vc_progress_bar .vc_single_bar .vc_bar {
+	right: 0;
+}
+.mo-progress-style1.vc_progress_bar .vc_single_bar .vc_label .vc_inner .vc_label_units {
+    left: -10px;
+    right: auto;
+}
+.mo-progress-style2.vc_progress_bar .vc_single_bar .vc_label .vc_inner .vc_label_units {
+    float: left;
+}
+.mo-progress-style4.vc_progress_bar .vc_single_bar .vc_label .vc_label_units {
+    float: left;
+    right: auto;
+    left: -20px;
+}
+/* services */
+.service.style1 .icon-wrap {
+    float: right;
+}
+.service.style1 .title-wrap {
+    padding-right: 50px;
+	padding-left: 0px;
+}
+.services .right, .service-images {
+	float: left;
+}
+.services .left {
+	float: right;
+}
+.services .left p, .services .left h4 {
+	text-align: left;
+	padding-right: 0 !important;
+}
+.service-rotate:before {
+    left: 80px;
+}
+.service.style3 .icon-wrap {
+    float: right;
+}
+.service.style3 .title-wrap {
+    padding-right: 70px;
+	padding-left:0;
+}
+.timeline-box .timeline-title {
+    float: right;
+}
+.timeline-box i {
+    padding-right: 0;
+    padding-left: 25px;
+    float: right;
+}
+.timeline-line span {
+    right: auto;
+    left: 24px;
+}
+.timeline-line:nth-of-type(2n) .timeline-box:after {
+    right: auto;
+    left: -5.5%;
+}
+@media only screen and (max-width: 1280px){
+	.timeline-line:nth-of-type(2n) .timeline-box:after {
+    left: -6%;
+}
+}
+ @media only screen and (max-width: 768px) {
+.services .right p, .services .right h4, .services .left p, .services .left h4 {
+	text-align: right;
+}
+.services .right .icon-wrap, .services .left .icon-wrap {
+	float: right;
+}
+.services .right .service, .services .left .service {
+	text-align: right;
+	direction: ltr;
+	display:block;
+	clear:both;
+}
+.services .right .service .icon-wrap, .services .left .service .icon-wrap {
+	float: right;
+}
+.services .right .service .title-wrap, .services .left .service .title-wrap {
+	padding-right: 70px;
+	padding-left: 0px;
+}
+.services .right .service p, .services .left .service p {
+	padding-left: 50px;
+	padding-right: 0;
+}
+}
+/* vedio */
+.vedio .divider:after {
+	left: 0;
+}
+.vedio .divider.left {
+	margin-right: 0;
+}
+/* portfolio */
+.portfolio-filter a:after {
+	right: 23px;
+	left: 0;
+}
+/* testimonial */
+.owl-carousel {
+    direction: ltr !important;
+}
+/* post */
+.tags , .tags span {
+    float: right;
+}
+.share {
+    left: 0;
+	right: auto;
+}
+.share i {
+    float: left;
+    margin-right: 10px;
+	margin-left: 0;
+}
+.share span {
+    float: left;
+}
+.share-links {
+    right: auto;
+    left: 15px;
+}
+ul.meta-post li:after, ul.meta-post li:before {
+    left:auto;
+    right: -8px;
+}
+ul.meta-post li:after {
+	left:auto;
+    right: -5px;
+}
+.post-pagi {
+    padding-left: 0;
+    padding-right: 40px;
+}
+.post-pagi.prev {
+    padding-right: 0;
+    padding-left: 40px;
+	text-align: left;
+}
+.post-pagi.prev span {
+    text-align: left;
+}
+.submit-newsletter , .submit-newsletter-icon{
+    right:auto;
+    left: 0;
+}
+.mc4wp-form input[type="email"] {
+    padding-left: 43px;
+    padding-right: 0;
+}
+.submit-newsletter-icon{
+	-webkit-transform: translateY(0) rotate(-180deg);
+	-moz-transform: translateY(0) rotate(-180deg);
+	-ms-transform: translateY(0) rotate(-180deg);
+	-o-transform: translateY(0) rotate(-180deg);
+	transform: translateY(0) rotate(-180deg);
+}
+.testimonial {
+	padding: 30px 120px 30px 15px;
+}
+/* post */
+ul.meta-post .date:before, ul.meta-post .author:before {
+	left: -17px;
+	right: auto;
+}
+ul.meta-post .date:after, ul.meta-post .author:after {
+	left: -13px;
+	right: auto;
+}
+/* contact */
+.input_label {
+	right: 15px;
+	text-align: right;
+}
+.input_label_content::after {
+	right: 0;
+}
+#contactform .button, .popup-gmaps {
+	float: right;
+}
+/* footer */
+.footer-about {
+	float: left;
+}
+.footer-newsletter h4, .show-block-error {
+	width: 70%;
+}
+.footer-newsletter {
+	float: left;
+	left: auto;
+}
+.footer-newsletter form .submit {
+	float: left;
+	left: 0;
+	right: auto;
+	-moz-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+.footer-newsletter form input[type="email"] {
+	padding-right: 0;
+	padding-left: 43px;
+}
+.footer_v2 .wg-title:before {
+    right: 6px;
+}
+.footer_v2 .wg-title:after {
+    right: 0;
+}
+/* pages */
+.search_block form .search_btn {
+	left: 0;
+}
+.widget_post_thumbnail {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+.widget_categories ul li a:before {
+	right: 0;
+	left: auto;
+	-moz-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+.widget_categories ul li {
+	padding-left: 0;
+	padding-right: 25px;
+}
+.post-detail blockquote {
+	border-right: 0 none;
+	text-align: right;
+}
+.post-detail blockquote:before {
+	right: 60px;
+	left: auto;
+}
+.post-detail blockquote:after {
+	right: 10px;
+	left: auto;
+}
+.tagcloud a, .social_links_widget a {
+	float: right;
+}
+.post-pagi h3 a {
+	direction: ltr;
+}
+ul.comments-list li .avatar {
+	right: 0;
+	left: auto;
+}
+ul.comments-list {
+	padding-right: 0;
+}
+ul.comments-list li .comment {
+	padding-right: 90px;
+	padding-left: 0;
+}
+.comments-form .button {
+	float: right;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+	margin-right: 0 !important;
+}
+ @media only screen and (max-width: 768px) {
+	.social-header {
+		left: 12%;
+	}
+	.item-rotate {
+		left: 32%;
+	}
+	.owl-about .title-wrap {
+		padding-left: 0;
+		font-size: 13px;
+	}
+	.testimonial {
+		padding: 30px 90px 30px 40px;
+	}
+	.portfolio-filter a:after {
+		right: 12px;
+	}
+}
+.vc_tta.vc_general .vc_tta-panel-title { text-align:right; }
+.vc_tta-tabs.vc_tta .vc_tta-tabs-list .vc_tta-tab { float:right; margin-right:0; }
+.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left.vc_tta-panel-title>a { padding-right:46px; padding-left:0px; }
+.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left .vc_tta-controls-icon { right: 20px; }

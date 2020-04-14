@@ -1,0 +1,329 @@
+$color-primary:#363e3f;
+$color-primary-dark:darken($color-primary,12%);
+$color-secondary:#000;
+@import "_base/_variables.scss";
+@import "_base/_mixins.scss";
+::-moz-selection {
+	 background: $color-primary;
+}
+::selection {
+	 background: $color-primary;
+}
+.button , .social-header li:hover , .loading span , .bg-primary , .separator_third span:before , .separator_third span:after , .divider.primary:before , .divider.primary:after , .wpb_content_element .wpb_tabs_nav li.ui-tabs-active a{
+	 background: $color-primary;
+}
+.cd-nav li.cd-selected a , .cd-nav li:hover > a , .title-section h3{  color:$color-primary; }
+
+@-moz-document url-prefix() {
+  .icon-wrap i:before{
+    color:$color-primary;
+	 -webkit-text-fill-color: $color-primary !important;
+  }
+}
+.overlay, .vc_parallax .mo-vc-row-ovelay, .parallax.hero .mo-vc-row-ovelay , .mfp-bg , .modal ,
+.progress-bar , .bt-progress-style1.vc_progress_bar .vc_single_bar .vc_bar , .bt-progress-style3.vc_progress_bar .vc_single_bar .vc_bar{ @include linear-gradient( left, $color-primary, $color-secondary); }
+.service .icon-wrap i::before {
+	@include linear-gradient( left, $color-primary, $color-secondary);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+ }
+figure.portfolio-effect , .format-video figure , .overlay-top ,.team-member figure , .team-member-temp2 .team-member-details:after , .team-member-temp3:before , .team-member-temp3 .team-member-details-inner{
+   @include linear-gradient(top, $color-primary, $color-secondary); }
+
+.cd-headline.loading-bar .cd-words-wrapper::after{background:$color-primary; }
+
+.button:hover , .button:active , .button:focus {
+	border-color: $color-primary-dark;
+	background-color: $color-primary-dark;
+}
+
+.separator span i:before  , .separator span i:after { border: 1px solid $color-primary;}
+.separator_sec , .separator_third{ color:$color-primary;
+    span{ background:$color-primary; }
+}
+
+/* mo-header */
+.mo-header-v2.mo-header-icon:hover , .mo-header-v3.mo-header-icon:hover{
+    &:before , &:after, span{ background:$color-primary; }
+  }
+.mo-header-v1, .mo-header-v2, .mo-header-v3, .mo-header-v4 {
+  .widget .social-wrap > a:hover { color:$color-primary; }
+  .widget #menu-menu-top li a i, .widget .mo-top-bar li a i{color:$color-primary;
+        &:hover { color:$color-primary; }
+  }
+}
+.mo-header-v1 .mo-search-header , .mo-header-v4 .mo-search-header {
+  a.active { background:$color-primary;  }
+  a.active:before,  a.active:after, a:hover { background:$color-primary;  }
+}
+.mo-header-v3 .mo-search-header > a:hover , .mo-header-v2 .mo-search-header > a:hover ,
+.mo-header-v2.mo-header-fixed .mo-header-menu .mo-search-header > a:hover,
+.mo-header-v3 .mo-toggle-menu:hover , .mo-header-v3.mo-header-fixed .mo-menu-list > ul > li > a:hover ,
+.mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li.mo-banner .mo-banner-wrap .mo-overlay > a:hover,
+.mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li.mo-banner .mo-banner-wrap .mo-overlay > a:hover,
+.mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li.mo-banner .mo-banner-wrap .mo-overlay > a:hover,
+.mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li.mo-banner .mo-banner-wrap .mo-overlay > a:hover,
+.mo-header-v1.dot .mo-menu-list > ul > li:hover > a:before,
+.mo-header-v1.dot .mo-menu-list > ul > li:hover > a:after,
+.mo-header-v1.dot .mo-menu-list > ul > li.current-menu-item > a:before,
+.mo-header-v1.dot .mo-menu-list > ul > li.current-menu-item > a:after,
+.mo-header-v1.dot .mo-menu-list > ul > li.current-menu-ancestor > a:before,
+.mo-header-v1.dot .mo-menu-list > ul > li.current-menu-ancestor > a:after
+{ color:$color-primary; }
+
+.mo-header-v1 .mo-search-header > a:hover, .mo-header-v4 .mo-search-header > a:hover,
+.mo-header-v5 .mo-search-header > a:hover , .mo-header-v1.mo-header-fixed .mo-header-menu .mo-search-header > a:hover,
+.mo-header-v4.mo-header-fixed .mo-header-menu .mo-search-header > a:hover ,
+.mo-header-v1.line .mo-menu-list > ul > li > a:after , .mo-header-v2 .mo-menu-list > ul > li > a:before , .mo-header-v3 .mo-menu-list > ul > li > a:before ,
+.mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li.mo-banner .mo-banner-wrap .mo-overlay > a,
+.mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li.mo-banner .mo-banner-wrap .mo-overlay > a,
+.mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li.mo-banner .mo-banner-wrap .mo-overlay > a,
+.mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children.mega-menu-item > ul > li.mo-banner .mo-banner-wrap .mo-overlay > a{
+	background: $color-primary;
+}
+
+.mo-header-v1 .mo-menu-list > ul > li:hover > a, .mo-header-v1 .mo-menu-list > ul > li.current-menu-item > a, .mo-header-v1 .mo-menu-list > ul > li.current-menu-ancestor > a, .mo-header-v2 .mo-menu-list > ul > li:hover > a, .mo-header-v2 .mo-menu-list > ul > li.current-menu-item > a, .mo-header-v2 .mo-menu-list > ul > li.current-menu-ancestor > a, .mo-header-v3 .mo-menu-list > ul > li:hover > a, .mo-header-v3 .mo-menu-list > ul > li.current-menu-item > a, .mo-header-v3 .mo-menu-list > ul > li.current-menu-ancestor > a, .mo-header-v4 .mo-menu-list > ul > li.current-menu-item > a.mo-header-v4 .mo-menu-list > ul > li:hover
+.mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children > ul > li:hover > a, .mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children > ul > li.current-menu-item > a, .mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children > ul > li.current-menu-ancestor > a, .mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children > ul > li:hover > a, .mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children > ul > li.current-menu-item > a, .mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children > ul > li.current-menu-ancestor > a, .mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children > ul > li:hover > a, .mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children > ul > li.current-menu-item > a, .mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children > ul > li.current-menu-ancestor > a, .mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children > ul > li:hover > a, .mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children > ul > li.current-menu-item > a, .mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children > ul > li.current-menu-ancestor > a,
+.mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children > ul > li:hover > a, .mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children > ul > li.current-menu-item > a, .mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children > ul > li.current-menu-ancestor > a, .mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children > ul > li:hover > a, .mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children > ul > li.current-menu-item > a, .mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children > ul > li.current-menu-ancestor > a, .mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children > ul > li:hover > a, .mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children > ul > li.current-menu-item > a, .mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children > ul > li.current-menu-ancestor > a, .mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children > ul > li:hover > a, .mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children > ul > li.current-menu-item > a, .mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children > ul > li.current-menu-ancestor > a
+{ color: $color-primary !important; }
+
+.mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children .mb-dropdown-icon:hover:before, .mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children .mb-dropdown-icon:hover:before, .mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children .mb-dropdown-icon:hover:before, .mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children > ul > li.menu-item-has-children .mb-dropdown-icon:hover:before ,
+.mo-header-v1 .mo-menu-list > ul > li.menu-item-has-children .mb-dropdown-icon:hover:before, .mo-header-v2 .mo-menu-list > ul > li.menu-item-has-children .mb-dropdown-icon:hover:before, .mo-header-v3 .mo-menu-list > ul > li.menu-item-has-children .mb-dropdown-icon:hover:before, .mo-header-v4 .mo-menu-list > ul > li.menu-item-has-children .mb-dropdown-icon:hover:before ,
+.mo-header-v4 .mo-header-top.t_motivo .icon_text .icocc .icon , .mo-header-v4 .mo-header-top.t_motivo.right-pcc .mo-search-header > a ,
+.mo-header-v4 .mo-header-menu .mo-col-menu.has-menu-right-sidebar .mo-menu-list.motivo_cc > ul > li >ul >li:hover > a, .mo-header-v4 .mo-header-menu .mo-col-menu.has-menu-right-sidebar .mo-menu-list.motivo_cc > ul > li >ul >li.current-menu-item > a, .mo-header-v4 .mo-header-menu .mo-col-menu.has-menu-right-sidebar .mo-menu-list.motivo_cc > ul > li >ul >li.current-menu-ancestor > a ,
+.mo-header-v4 .mo-header-menu .mo-col-menu.has-menu-right-sidebar .mo-menu-list.motivo_cc > ul > li.menu-item-has-children .nomega-menu-item > ul >li:hover > a, .mo-header-v4 .mo-header-menu .mo-col-menu.has-menu-right-sidebar .mo-menu-list.motivo_cc > ul > li.menu-item-has-children .nomega-menu-item > ul >li.current-menu-item > a, .mo-header-v4 .mo-header-menu .mo-col-menu.has-menu-right-sidebar .mo-menu-list.motivo_cc > ul > li.menu-item-has-children .nomega-menu-item > ul >li.current-menu-ancestor > a ,
+.mo-header-v4 .mo-header-menu .mo-col-menu.has-menu-right-sidebar .header_socials .widget .social-wrap > a:hover ,
+.mo-header-v1.mo-header-fixed .mo-header-menu .mo-search-header > a, .mo-header-v4.mo-header-fixed .mo-header-menu .mo-search-header > a,
+.mo-header-v4 .mo-header-menu .mo-col-menu.has-menu-right-sidebar .header_socials .widget #menu-menu-top > li > a > i, .mo-header-v4 .mo-header-menu .mo-col-menu.has-menu-right-sidebar .header_socials .widget .mo-top-bar > li > a > i ,
+.mo-header-v4 .mo-header-menu .mo-col-menu.has-menu-right-sidebar .header_socials .widget #menu-menu-top > li > a:hover, .mo-header-v4 .mo-header-menu .mo-col-menu.has-menu-right-sidebar .header_socials .widget .mo-top-bar > li > a:hover {
+	color: $color-primary; }
+
+@media (min-width: 992px) {
+  .mo-stick-active .mo-header-v4.mo-header-stick .mo-header-menu {
+  	background: $color-primary;
+  }
+}
+
+.service .title-wrap h4{ color:$color-primary;}
+.owl-about{
+	.owl-dot span , .owl-dot span:hover {
+		background-color: lighten($color-primary,10%);
+		border:1px solid lighten($color-primary,10%);
+	}
+	.owl-dot.active span{
+		background-color: $color-primary !important;
+		border:1px solid $color-primary !important;
+	}
+}
+/* owl-dot */
+.dots-nav-dark .owl-dot span{background-color:transparent; border:1px solid $color-primary;}
+.dots-nav-dark .owl-dots .owl-dot.active span{background-color:$color-primary; border:1px solid $color-primary;}
+.dots-nav-dark .owl-dot span { background-color:transparent;  border:1px solid $color-primary;}
+.dots-nav-dark .owl-nav .icon-wrap::after, .dots-nav-dark .owl-nav .icon-wrap::before,.dots-nav-dark .owl-nav span::after,.dots-nav-dark .owl-nav span::before{background:$color-primary;}
+
+.pie-primary{
+  .vc_pie_chart_back{ border-color: $color-primary;}
+  .vc_pie_chart_value , .wpb_pie_chart_heading{color: $color-primary;}
+}
+ .wpb_accordion .wpb_accordion_wrapper .ui-accordion-header-active a , .service.style3 .icon-wrap ,
+ .progress-bar-tooltip , .bt-progress-style1.vc_progress_bar .vc_single_bar .vc_label .vc_inner .vc_label_units  , .bt-progress-style2.vc_progress_bar .vc_single_bar .vc_bar , .bt-progress-style4.vc_progress_bar .vc_single_bar .vc_bar{
+ background:$color-primary;}
+.service.style3:hover .icon-wrap{ background:$color-secondary; }
+.title-wrap	h4 ,  .service h4 , .service.style3:hover h4 , .service.style4 .step-number{ color:$color-primary;}
+
+.timeline-box i{color: $color-primary;}
+.timeline-line {
+	 span{ color: $color-primary; }
+	 &:hover {  &:after { background: $color-primary; } }
+	 &:after {
+	   @media all and (min-width: 650px) { border: 2px solid $color-primary; }
+  }
+ }
+.timeline-box:hover, .timeline-box:focus {
+    -webkit-box-shadow: 0px 3px 0px 0px $color-primary;
+    -moz-box-shadow: 0px 3px 0px 0px $color-primary;
+    box-shadow: 0px 3px 0px 0px $color-primary;
+}
+
+.portfolio-filter {
+    a:after{ background: $color-primary;}
+	  a:hover , a.active{ color: $color-primary;}
+}
+
+.team-member{
+	.team-details{
+		.divider:before, .divider:after { background-color: $color-primary;}
+	}
+   &:hover{
+		.team-details{background:$color-primary;}
+	}
+}
+
+.pricing-item{
+  h3 , span.icon-plan i{ color:$color-primary; }
+	.divider:before, .divider:after { background-color: $color-primary;}
+	.button{
+		border: 2px solid $color-primary;
+		color: $color-primary;
+		&:hover{ background:$color-primary; }
+	}
+	&:hover{
+	  .pricing-price{ color:$color-primary;}
+  }
+}
+.pricing-item.style2{
+	h3 , .pricing-price{ color:$color-primary;	}
+  span.icon-plan {
+    i{ color:$color-primary;}
+    &:before , &:after {border:1px solid $color-primary;}
+   }
+}
+.pricing-item.style2.pricing-best .button{ background:$color-primary !important;}
+
+.item-post{
+	h5:hover a{color:$color-primary;}
+	&:hover	h5 a{color:$color-primary;}
+}
+.nectar-love.loved i{color:$color-primary;}
+.nectar-love.loved  span { background-color:$color-primary; }
+.nectar-love.loved:hover span:after { border-color: transparent transparent $color-primary transparent;}
+
+.post , .page{
+	h5.post-title:hover > a{color:$color-primary;}
+}
+.bt-button.primary {
+    background:$color-primary;
+	border-color:$color-primary;
+}
+.btn-post:hover , .btn-post:active , .btn-post:focus{ color:$color-primary;  }
+.mo-pagination .current ,
+.mo-pagination a:focus, .mo-pagination a:hover,
+.mo-pagination span:focus, .mo-pagination span:hover {
+	background:$color-primary;
+}
+.social_links_widget a:hover  , .tagcloud a:hover , .tagcloud a:active , .widget.widget_calendar .calendar_wrap table #today ,
+.sidebar .social-media-widget ul li a:hover, .sidebar .social-media-widget ul li a:active ,
+.wpb_widgetised_column .social-media-widget ul li a:hover, .wpb_widgetised_column .social-media-widget ul li a:active
+{	background: $color-primary;	}
+.widget_categories ul li	a:hover , .widget_categories ul li a:hover:before , .widget_mo_post_list h5:hover a , .posts_widget_list h4:hover a ,
+.widget_archive ul li a:hover, .widget_categories ul li a:hover:before ,
+.widget_recent_entries ul li a:hover, .widget_recent_entries ul li a:hover:before ,
+.widget_meta ul li a:hover, .widget_meta ul li a:hover:before ,
+.widget_pages ul li a:hover, .widget_pages ul li a:hover:before ,
+.widget_nav_menu ul li a:hover, .widget_nav_menu ul li a:hover:before ,
+.widget_hala_twitter ul li a:hover, .widget_hala_twitter ul li a:hover:before ,
+.widget_recent_comments ul li a:hover, .widget_recent_comments ul li a:hover:before ,
+.widget.widget_calendar .calendar_wrap table th , .widget_hala_twitter ul li a
+{ color: $color-primary; }
+
+.post-detail .post-title , .post-pagi:hover h3 , .comment-body a.comment-reply-link{color: $color-primary;}
+.comment-respond .comment-form .form-submit .submit {  background: $color-primary;}
+.comment-respond .comment-form .form-submit .submit:hover, .comment-respond .comment-form .form-submit .submit:active, .comment-respond .comment-form .form-submit .submit:focus { border-color: $color-secondary; background-color: $color-secondary;}
+
+.mo-testimonial-carousel.tpl1{
+    background: $color-primary;
+  	&:before{  border-top: 300px solid $color-primary;  }
+    p:after {  border-top: 12px solid $color-primary;  }
+ }
+.mo-testimonial-carousel.tpl3 p{ background-color:$color-primary; }
+
+.client-logo{ background: $color-secondary;}
+.client-logo .mo-image-carousel-wrap:before{  border-bottom: 300px solid $color-secondary;}
+.tweets{ background-color: $color-primary;}
+.popup-gmaps{
+	&:hover , &:active, &:focus{ background-color:$color-primary; }
+}
+
+.input_field:focus {outline: none; border-color: $color-primary;}
+.input_field_light:focus , .input-filled .input_field_light {	border-color: $color-primary;}
+.input_label_content:after , .to-top:hover{	color: $color-primary;}
+footer .social-media-widget	li:hover{ background: $color-primary;}
+/* accordion */
+.wpb_accordion .wpb_accordion_wrapper .ui-accordion-header-active a ,
+.bt-accordion-style1.vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title > a ,
+.wpb_content_element .wpb_tabs_nav li.ui-tabs-active a ,
+.bt-tabs-style1.vc_tta-tabs.vc_tta .vc_tta-tabs-list .vc_tta-tab:before ,
+.bt-accordion-style1.vc_tta.vc_general .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title > a:before ,
+.bt-tabs-style1.vc_tta-tabs.vc_tta .vc_tta-panels-container .vc_tta-panels .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title > a ,
+.bt-tabs-style4.vc_tta-tabs.vc_tta .vc_tta-tabs-list .vc_tta-tab.vc_active > a ,
+.bt-tabs-style4.vc_tta-tabs.vc_tta .vc_tta-panels-container .vc_tta-panels .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title > a {
+  background: $color-primary;
+}
+.bt-accordion-style2.vc_tta.vc_general .vc_tta-panel .vc_tta-panel-body .mo-content-inner > h3 ,
+.bt-accordion-style2.vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title > a ,
+.mo-faq-style1.vc_toggle_default.vc_toggle.vc_toggle_active .vc_toggle_title .vc_toggle_icon ,
+.bt-tabs-style1.vc_tta-tabs.vc_tta .vc_tta-tabs-list .vc_tta-tab.vc_active > a ,
+.bt-tabs-style2.vc_tta-tabs.vc_tta .vc_tta-tabs-list .vc_tta-tab > a:hover ,  .bt-tabs-style2.vc_tta-tabs.vc_tta .vc_tta-tabs-list .vc_tta-tab.vc_active > a ,
+.bt-tabs-style2.vc_tta-tabs.vc_tta .vc_tta-panels-container .vc_tta-panels .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title > a ,
+.bt-tabs-style3.vc_tta-tabs.vc_tta .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title > a:hover ,
+.bt-tabs-style3.vc_tta-tabs.vc_tta .vc_tta-panels-container .vc_tta-panels .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title > a ,
+.bt-tabs-style3.vc_tta-tabs.vc_tta .vc_tta-tabs-list .vc_tta-tab > a:hover ,
+.bt-tabs-style3.vc_tta-tabs.vc_tta .vc_tta-tabs-list .vc_tta-tab.vc_active > a{ color:$color-primary; }
+
+.bt-accordion-style3.vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title > a {
+  border-top-color:$color-primary;
+  border-right-color:$color-primary;
+  border-left-color:$color-primary;
+}
+.bt-accordion-style3.vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-panel-body {
+  border-right-color:$color-primary;
+  border-bottom-color:$color-primary;
+  border-left-color:$color-primary;
+}
+.bt-accordion-style4.vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title > a {
+  border-top-color:$color-primary !important;
+  border-right-color:$color-primary !important;
+  border-left-color:$color-primary !important;
+  background:$color-primary !important;
+}
+.bt-accordion-style4.vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-panel-body {
+  border-right-color:$color-primary;
+  border-bottom-color:$color-primary;
+  border-left-color:$color-primary;
+  background:$color-primary;
+}
+
+ .mo-faq-style1.vc_toggle_default.vc_toggle.vc_toggle_active { border-color:$color-primary; }
+ .bt-tabs-style1.vc_tta-tabs.vc_tta .vc_tta-tabs-list .vc_tta-tab:after { border-top:0px solid $color-primary; }
+ .bt-tabs-style1.vc_tta-tabs.vc_tta .vc_tta-tabs-list .vc_tta-tab.vc_active:after { border-top:5px solid $color-primary; }
+ .bt-tabs-style1.vc_tta-tabs.vc_tta .vc_tta-panels-container .vc_tta-panels .vc_tta-panel.vc_active .vc_tta-panel-heading { border-color:$color-primary; }
+
+/* woocommerce */
+.mo-product-carousel.tpl1 .product .mo-thumb .mo-overlay , .bs-masonry.bs-masonry-layout-creative .tbbs-masonry-grid .tbbs-grid-item.hala-woo-style2:before , .mo-products-grid.tpl1 article:before {
+  @include linear-gradient(top, $color-primary, $color-secondary);
+}
+.woocommerce-checkout .woocommerce #order_review #payment .place-order #place_order , .woocommerce-checkout .woocommerce .login .form-row input.button, .woocommerce-checkout .woocommerce .checkout_coupon .form-row input.button , .woocommerce-account .woocommerce form.login .form-row input.button, .woocommerce-account .woocommerce form.lost_reset_password .form-row input.button, .mo-cart-header > a.active , .mo-cart-header:hover , .mo-cart-header > a .cart_total , .woocommerce-account .woocommerce form input.button ,
+.woocommerce-checkout .woocommerce .login .form-row input.button:hover, .woocommerce-checkout .woocommerce .checkout_coupon .form-row input.button:hover , .woocommerce-cart .main-content .woocommerce .return-to-shop > a:hover , .woocommerce-cart .main-content .woocommerce .wc-proceed-to-checkout .checkout-button , .woocommerce-cart .main-content .woocommerce table.shop_table tbody tr td.actions > .button , .woocommerce-cart .main-content .woocommerce table.shop_table tbody tr td.actions .coupon input.button:hover, .woocommerce-cart .main-content .woocommerce table.shop_table tbody tr td.product-item a.remove:hover , .single-product .mo-related .products .mo-product-items .grid .product .mo-thumb .mo-actions .added_to_cart , .single-product .mo-related .products .mo-product-items .grid .product .mo-thumb .mo-actions .add_to_cart_button  ,
+.archive-product .list .product .mo-content .mo-actions .add_to_cart_button , .archive-product .list .product .mo-content .mo-actions .add_to_cart_button:hover ,	.archive-product .list .product .mo-content .mo-actions .added_to_cart:hover , .single-product .mo-product-item .mo-content .cart .single_add_to_cart_button ,	.single-product .mo-product-item .mo-content .cart .single_add_to_cart_button:hover ,	.single-product .mo-product-item .mo-content .mo-socials > li > a:hover ,	.single-product div.product .woocommerce-tabs ul.tabs > li.active > a , .archive-product .grid .product .mo-thumb .mo-actions .add_to_cart_button ,	.archive-product .grid .product .mo-thumb .mo-actions .added_to_cart , .bs-masonry.bs-masonry-layout-creative .tbbs-masonry-grid .tbbs-grid-item.hala-woo-style2 .mo-content ,	.bs-masonry.bs-masonry-layout-creative .tbbs-masonry-grid .tbbs-grid-item.hala-woo-style2 .mo-content .mo-action > li a:hover ,	.bs-masonry.bs-masonry-layout-creative .tbbs-masonry-grid .tbbs-grid-item.hala-woo-style2 .mo-content .mo-action > li a:hover ,
+.mo-product-list-item .mo-content .mo-actions .add_to_cart_button:hover ,	.mo-product-list-item .mo-content .mo-actions .added_to_cart:hover , .mo-products-grid.tpl2 .product .mo-thumb .mo-actions .added_to_cart  , .mo-product-carousel .owl-controls .owl-nav .owl-prev:hover, .mo-product-carousel .owl-controls .owl-nav .owl-next:hover ,.mo-product-carousel.tpl2 .product .mo-overlay .mo-content .mo-title > a , .mo-product-carousel.tpl1 .product .mo-content , .mo-products-grid.tpl1 article .mo-content , .mo-products-grid.tpl1 article .mo-content .mo-action > li a:hover , .mo-products-grid.tpl2 .product .mo-thumb .mo-actions .add_to_cart_button , .woocommerce-product-search input[type=submit]:hover , .mo_mini_cart > a.mo-icon:hover span.cart_total ,	 .woocommerce-account .woocommerce form input.button:hover , .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button , .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover , .sidebar-left .widget.woo-filter-attribute ul > li > a, .sidebar-right .widget.woo-filter-attribute ul > li > a , .woocommerce-product-search input[type=submit] ,
+.woocommerce-checkout .woocommerce #order_review #payment .place-order #place_order:hover , .woocommerce-cart .main-content .woocommerce .wc-proceed-to-checkout .checkout-button:hover , .woocommerce-cart .main-content .woocommerce table.shop_table tbody tr td.actions > .button:hover , .single-product div.product .woocommerce-tabs #tab-reviews #reviews .comment-respond .comment-reply-title:before , .single-product div.product .woocommerce-tabs #tab-reviews #reviews .comment-form .form-submit input.submit , .single-product div.product .woocommerce-tabs #tab-reviews #reviews .comment-form .form-submit input.submit:hover , .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button , .mo-cart-content a.wc-forward , .single-product div.product .woocommerce-tabs #tab-reviews #reviews .comment-respond .comment-reply-title:after, .single-product div.product .woocommerce-tabs #tab-reviews #reviews .comment-respond .comment-reply-title:before
+{ background:$color-primary; }
+
+.sidebar-left .widget.widget_product_categories > ul li.current-cat > a, .sidebar-left .widget.widget_product_categories > ul li:hover > a, .sidebar-right .widget.widget_product_categories > ul li.current-cat > a, .sidebar-right .widget.widget_product_categories > ul li:hover > a ,
+.sidebar-left .widget.widget_product_categories > ul li.current-cat > a:before, .sidebar-left .widget.widget_product_categories > ul li:hover > a:before , .sidebar-right .widget.widget_product_categories > ul li.current-cat > a:before, .sidebar-right .widget.widget_product_categories > ul li:hover > a:before , .woocommerce .woocommerce-message > a:hover , .woocommerce .woocommerce-message:before , .sidebar-left .widget.widget_products ul > li > a:hover, .sidebar-right .widget.widget_products ul > li > a:hover ,  .mo-cart-header > a.active .cart_total , .mo-cart-header:hover > a .cart_total, .mo_mini_cart > a.mo-icon:hover , .mo-cart-content .cart_list.product_list_widget .mini_cart_item > a:hover , .mo-cart-header > a , .woocommerce-account .woocommerce form.login p.lost_password > a:hover, .woocommerce-account .woocommerce form.lost_reset_password p.lost_password > a:hover ,	 .woocommerce-account .woocommerce .myaccount_user > a:hover , woocommerce-account .woocommerce .addresses .title > a  , .woocommerce-checkout .woocommerce .woocommerce-info > a:hover, .woocommerce-checkout .woocommerce .login > p.lost_password > a:hover, .woocommerce-checkout .woocommerce .checkout_coupon > p.lost_password > a:hover ,
+.woocommerce-checkout .woocommerce #order_review .order-review-heading, .woocommerce-checkout .woocommerce #order_review .payment-method-heading , .woocommerce-cart .main-content .woocommerce table.shop_table tbody tr td.product-quantity .quantity .qty-minus:hover, .woocommerce-cart .main-content .woocommerce table.shop_table tbody tr td.product-quantity .quantity .qty-plus:hover, .single-product .mo-related .products .mo-product-items .grid .product .mo-content h3:hover , .single-product .mo-related .products .mo-product-items .grid .product .mo-content .star-rating ,.single-product .mo-related .products .mo-product-items .grid .product .mo-content .star-rating:before ,	 .woocommerce-cart .main-content .woocommerce table.shop_table tbody tr td.product-item a:hover ,
+.single-product .mo-product-item .mo-content .star-rating ,	.single-product .mo-product-item .mo-content .star-rating:before  , .single-product div.product .woocommerce-tabs #tab-reviews #reviews #comments .commentlist li .comment-text .star-rating ,	.archive-product .list .product .mo-content h3:hover ,	.archive-product .list .product .mo-content .price-rating .star-rating  ,	.archive-product .grid .product .mo-content h3:hover , .archive-product .grid .product .mo-content .star-rating ,	.archive-product .grid .product .mo-content .star-rating:before ,	.mo-product-list-item .mo-content h3:hover ,	.mo-product-list-item .mo-content .price-rating .star-rating , .mo-product-list-item .mo-content .price-rating .star-rating:before , .mo-product-grid-item .mo-content h3:hover ,	.mo-product-grid-item .mo-content .star-rating ,	.mo-product-grid-item .mo-content .star-rating:before ,
+.archive-product .mo-action-bar .woocommerce-ordering .mo-layout-view .mo-layout.active , .mo-single-add-to-cart .single_add_to_cart_button:hover ,	.bs-masonry.bs-masonry-layout-creative .tbbs-masonry-grid .tbbs-grid-item.hala-woo-style2 .mo-content .mo-title > a:hover ,	.bs-masonry.bs-masonry-layout-creative .tbbs-masonry-grid .tbbs-grid-item.hala-woo-style2 .mo-content .mo-categories ,	.bs-masonry.bs-masonry-layout-creative .tbbs-masonry-grid .tbbs-grid-item.hala-woo-style2 .mo-content .mo-categories a , .mo-products-grid.tpl2 .product .mo-content h3:hover ,	.mo-products-grid.tpl2 .product .mo-content .star-rating ,	.mo-products-grid.tpl2 .product .mo-content .star-rating:before ,	.bs-masonry.bs-masonry-layout-creative .tbbs-filter-wrap.hala-woo-style2 .tbbs-filter-item.tbbs-filter-current:after, .bs-masonry.bs-masonry-layout-creative .tbbs-filter-wrap.hala-woo-style2 .tbbs-filter-item:hover:after ,	.bs-masonry.bs-masonry-layout-creative .tbbs-filter-wrap.hala-woo-style2 .tbbs-filter-item.tbbs-filter-current > a, .bs-masonry.bs-masonry-layout-creative .tbbs-filter-wrap.hala-woo-style2 .tbbs-filter-item:hover > a ,
+.mo-product-carousel.tpl1 .product .mo-content .mo-title > a:hover , .mo-product-carousel.tpl1 .product .mo-content .mo-categories a:hover, .mo-product-carousel.tpl1 .product:hover .mo-content .mo-title > a:hover ,  .mo-product-carousel.tpl1 .product:hover .mo-content .mo-categories a:hover ,.mo-products-grid.tpl1 article .mo-content .mo-categories , .mo-products-grid.tpl1 article .mo-content .mo-categories a , .single-product div.product .woocommerce-tabs #tab-reviews #reviews .comment-form .comment-form-rating .stars > span > a , .single-product .mo-product-item .mo-content .cart .quantity .qty-minus:hover, .single-product .mo-product-item .mo-content .cart .quantity .qty-plus:hover , .single-product div.product .woocommerce-tabs #tab-reviews #reviews #comments .commentlist li .comment-text .star-rating:before ,  .archive-product .list .product .mo-content .price-rating .star-rating:before
+{ color:$color-primary; }
+
+.sidebar-left .widget.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle, .sidebar-right .widget.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle , .sidebar-left .widget.widget_price_filter .price_slider_wrapper .price_slider_amount .button:hover, .sidebar-right .widget.widget_price_filter .price_slider_wrapper .price_slider_amount .button:hover , .sidebar-left .widget.widget_product_categories > ul li.current-cat > span.count, .sidebar-left .widget.widget_product_categories > ul li:hover > span.count, .sidebar-right .widget.widget_product_categories > ul li.current-cat > span.count, .sidebar-right .widget.widget_product_categories > ul li:hover > span.count , .mo-product-carousel.tpl1 .product .mo-thumb .mo-overlay .mo-inner .mo-action > li > a:hover
+{ background:$color-primary; border-color:$color-primary; }
+
+.mo-product-carousel.tpl2 .product .mo-overlay .mo-content .mo-buy-product , .mo-products-grid.tpl2 .product .mo-thumb .mo-actions .lightbox-gallery ,	.archive-product .grid .product .mo-thumb .mo-actions .lightbox-gallery , .single-product .mo-related .products .mo-product-items .grid .product .mo-thumb .lightbox-gallery {
+	&:before, &:after { border: 1px solid $color-primary;	}
+  &:after { background:$color-primary;}
+}
+.single-product .mo-related > h3 {
+	  &:after , &:before {  background:$color-primary; }
+}
+.woocommerce-cart .main-content .woocommerce .return-to-shop > a ,  .single-product .mo-related .products .mo-product-items .grid .product .mo-thumb .onsale ,
+.single-product .mo-product-item .mo-thumb .onsale , .archive-product .list .product .mo-thumb .onsale , 	.archive-product .grid .product .mo-thumb .onsale ,
+.mo-product-list-item .mo-thumb .onsale  , 	.mo-onsale-style1 ,	.mo-product-grid-item .mo-thumb .onsale , .mo-single-add-to-cart .single_add_to_cart_button ,
+.mo-products-grid.tpl1 article .mo-thumb .onsale , .bs-masonry.bs-masonry-layout-creative .tbbs-masonry-grid .tbbs-grid-item.hala-woo-style2 .onsale , .mo-products-grid.tpl2 .product .mo-thumb .onsale
+{	color:$color-primary;		border:2px solid $color-primary;	}
+
+.mo-cart-content .buttons > a.checkout { color:$color-primary;	border:1px solid $color-primary; }
+
+.woocommerce .woocommerce-message , .mo-single-add-to-cart .quantity > input:focus , .mo-cart-content .buttons > a:hover
+{ border-color:$color-primary; }

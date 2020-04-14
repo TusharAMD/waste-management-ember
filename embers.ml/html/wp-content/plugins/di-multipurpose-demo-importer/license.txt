@@ -1,0 +1,4 @@
+Di Multipurpose Demo Importer plugin is GPLv2 and developed with the help of:
+'Ocean Extra' plugin, (C) 2019 oceanwp, GPLv2 
+
+Di Multipurpose Demo Importer plugin license: http://www.gnu.org/licenses/gpl-2.0.html
